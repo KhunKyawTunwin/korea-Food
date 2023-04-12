@@ -52,7 +52,8 @@
 
 @media screen and (max-width: 2000px) {
   .app__aboutus-content_knife img {
-    height: 1110px;
+    height: 650px;
+    /* height: 1110px; */
   }
 
   .app__aboutus-content_about p,
