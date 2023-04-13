@@ -49,17 +49,21 @@ const Gallery = () => {
             <div
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
-            ></div>
+            >
+              <img src={image} alt="gallery-image" />
+              <BsInstagram className="gallery__image-icon" />
+            </div>
           ))}
         </div>
 
-        <div className="app__gallery-images_arrow">
+        <div className="app__gallery-images_arrows">
           <BsArrowLeftShort
-            className="gallery__arrow-cion"
+            className="gallery__arrow-icon"
             onClick={() => scroll("left")}
-          />{" "}
+          />
+
           <BsArrowRightShort
-            className="gallery__arrow-cion"
+            className="gallery__arrow-icon"
             onClick={() => scroll("right")}
           />
         </div>
