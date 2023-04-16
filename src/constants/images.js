@@ -22,8 +22,16 @@ import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
+import porkSlad from "../assets/porkslad.jpg";
+import beef from "../assets/beef.jpg";
+import tteokB from "../assets/Tteokbokki.jpg";
+import waterFcake from "../assets/waterFishcake.jpg";
 
 export default {
+  waterFcake,
+  tteokB,
+  beef,
+  porkSlad,
   mainLogo,
   bg,
   chef,

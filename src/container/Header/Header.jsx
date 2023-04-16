@@ -22,7 +22,7 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="header img" />
+      <img src={images.waterFcake} alt="header img" />
     </div>
   </div>
 );

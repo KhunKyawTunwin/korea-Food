@@ -11,6 +11,10 @@ import { images } from "../../constants";
 import "./Gallery.css";
 
 const galleryImages = [
+  images.tteokB,
+  images.beef,
+  images.porkSlad,
+  images.mainM,
   images.gallery01,
   images.gallery02,
   images.gallery03,
